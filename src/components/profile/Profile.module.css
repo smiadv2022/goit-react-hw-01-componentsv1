@@ -32,7 +32,7 @@ img {
   margin-right: auto;
   background: rgb(227, 223, 231);
 }
-* .avatar {
+.avatar {
   display: block;
   padding: 5px;
   max-width: 160px;
@@ -44,6 +44,9 @@ img {
   border-radius: 50%;
   background: rgb(174, 169, 169);
 }
+.avatar:hover {
+  background: rgb(125, 89, 89);
+}
 .name,
 .tag,
 .location {
@@ -53,12 +56,11 @@ img {
   padding: 5px 20px;
 }
 
-.tag,
-.location {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 5px 20px;
+.name:hover,
+.tag:hover,
+.location:hover {
+  background: rgb(136, 109, 109);
+  /* color: blue; */
 }
 .stats {
   display: flex;
