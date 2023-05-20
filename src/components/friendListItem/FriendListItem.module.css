@@ -4,9 +4,9 @@
   display: flex;
   gap: 30px;
   align-items: center;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background: rgb(250, 247, 247);
-  border: 1px solid rgb(216, 212, 212);
+  box-shadow: rgba(76, 76, 85, 0.2) 0px 7px 29px 0px;
+  background: rgb(233, 225, 225);
+  border: 1px solid rgb(156, 147, 147);
 
   padding-left: 10px;
   padding-right: 80px;
@@ -15,7 +15,7 @@
 
 .item:hover {
   box-shadow: 1px 1px 18px rgba(84, 54, 54, 0.25);
-  background: rgb(236, 224, 224);
+  background: rgb(156, 147, 147);
 }
 
 .onlineStatus,
