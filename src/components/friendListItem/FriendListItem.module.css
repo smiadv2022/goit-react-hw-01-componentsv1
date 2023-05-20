@@ -1,0 +1,35 @@
+.item {
+  /* width: 500px; */
+  height: 80px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: rgb(250, 247, 247);
+  border: 1px solid rgb(216, 212, 212);
+
+  padding-left: 10px;
+  padding-right: 80px;
+  margin: 3px;
+}
+
+.item:hover {
+  box-shadow: 1px 1px 18px rgba(84, 54, 54, 0.25);
+  background: rgb(236, 224, 224);
+}
+
+.onlineStatus,
+.offlineStatus {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: block;
+}
+
+.onlineStatus {
+  background-color: green;
+}
+
+.offlineStatus {
+  background-color: red;
+}
