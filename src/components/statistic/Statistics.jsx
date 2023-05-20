@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
 export function Statistics({ title, stat }) {
@@ -10,10 +10,14 @@ export function Statistics({ title, stat }) {
         {stat.map(el => (
           <li className={css.item} key={el.id}>
             <span className={css.label}>{el.label}</span>
-            <span className={css.percentage}>{el.percentage}</span>
+            <span className={css.percentage}>{el.percentage}%</span>
           </li>
         ))}
       </ul>
     </section>
   );
 }
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stat: PropTypes.arrayOf(PropTypes.shape({ id: PropTypes.string.isRequired })),
+};

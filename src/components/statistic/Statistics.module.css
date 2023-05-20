@@ -1,9 +1,10 @@
 .stats {
   display: flex;
+  gap: 1px;
   justify-content: space-between;
-  background: rgb(97, 100, 100);
+  /* background: rgb(97, 100, 100); */
   border-color: aliceblue;
-  padding: 5px;
+  /* padding: 5px; */
 }
 .label {
   display: block;
@@ -29,7 +30,7 @@
   margin-right: auto;
   padding: 20px 50px;
   flex-wrap: wrap;
-  background: rgb(213, 144, 59);
+  background: rgb(183, 199, 199);
 }
 .title {
   font-weight: 500;
@@ -39,6 +40,22 @@
 }
 .stat-list {
   display: flex;
+}
+.item {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: calc(100% / 5);
+  border: 0.5px solid #b0b0b0;
+  border-radius: 5px;
+  background-color: rgb(184, 237, 237);
+}
+
+.item:hover {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .label {
   font-weight: 400;

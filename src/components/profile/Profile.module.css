@@ -3,7 +3,7 @@
   padding: 20px 50px;
   /* margin-bottom: 40px; */
   /* margin-top: 40px;  */
-  background: rgb(141, 141, 175);
+  background: rgb(207, 207, 220);
   display: block;
   text-align: center;
   justify-content: center;
@@ -26,11 +26,11 @@ img {
 }
 .description {
   padding: 20px;
-
+  border-radius: 10px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  background: blueviolet;
+  background: rgb(227, 223, 231);
 }
 * .avatar {
   display: block;
@@ -42,7 +42,7 @@ img {
   /* display: block; */
   /* height:30vh; */
   border-radius: 50%;
-  background: rgb(140, 131, 131);
+  background: rgb(174, 169, 169);
 }
 .name,
 .tag,
@@ -52,12 +52,21 @@ img {
   line-height: 20px;
   padding: 5px 20px;
 }
+
+.tag,
+.location {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 5px 20px;
+}
 .stats {
   display: flex;
   justify-content: space-between;
-  background: rgb(97, 100, 100);
+  background: rgb(183, 199, 199);
   border-color: aliceblue;
   padding: 5px;
+  border-radius: 10px;
 }
 .label {
   display: block;

@@ -23,7 +23,7 @@ export const App = () => {
         stats={user.stats}
       />
       {/* {dataStat[0].id} */}
-      <Statistics title="Upload stats" stat={dataStat} /> }
+      <Statistics title="Upload stats1" stat={dataStat} /> }
     </div>
   );
 };
