@@ -1,0 +1,76 @@
+.profile {
+  width: 50vh;
+  padding: 20px 50px;
+  /* margin-bottom: 40px; */
+  /* margin-top: 40px;  */
+  background: rgb(141, 141, 175);
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+p,
+img,
+ul,
+li {
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  /* text-decoration: none; */
+  list-style: none;
+}
+img {
+  display: block;
+}
+.description {
+  padding: 20px;
+
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: blueviolet;
+}
+* .avatar {
+  display: block;
+  padding: 5px;
+  max-width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* display: block; */
+  /* height:30vh; */
+  border-radius: 50%;
+  background: rgb(140, 131, 131);
+}
+.name,
+.tag,
+.location {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  padding: 5px 20px;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(97, 100, 100);
+  border-color: aliceblue;
+  padding: 5px;
+}
+.label {
+  display: block;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 5px 20px;
+}
+.quantity {
+  display: block;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  padding: 5px 20px;
+}
